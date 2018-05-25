@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/azure">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/cassandra">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/cockroachdb">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/consul">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/couchdb">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/dynamodb">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/etcd">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/file">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/gcs">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/inmem">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/manta">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/mssql">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/mysql">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/postgresql">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/s3">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/spanner">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/swift">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.000" name="github.com/hashicorp/vault/physical/zookeeper">
+		<properties>
+			<property name="go.version" value="go1.10"></property>
+		</properties>
+	</testsuite>
+</testsuites>

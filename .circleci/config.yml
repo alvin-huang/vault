@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  test:
+    parallelism: 4
+    docker:
+      - image: circleci/golang:1.10
+    working_directory: /go/src/github.com/hashicorp/vault
+
+    environment:
+      TEST_RESULTS: /tmp/test-results
+    steps:
+      - checkout
+      - run: mkdir -p $TEST_RESULTS
+      - run: go get github.com/jstemmer/go-junit-report
+
+      - type: shell
+        command: |
+          go test -v ./physical/... | go-junit-report > /tmp/test-results/test.xml \
+          $(go list ./... | grep -v /vendor/ | grep -v /integ | grep vault/physical) | circleci tests split
+      - run: go test -v ./physical/... | go-junit-report > /tmp/test-results/test.xml || true
+      - run: ls -la /tmp/test-results
+      - store_test_results:
+          path: /tmp/test-results
+      - store_artifacts:
+          path: /tmp/test-results
+workflows:
+  version: 2
+  runtests:
+    jobs:
+      - test
